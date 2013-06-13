@@ -31,7 +31,7 @@ if __name__ == "__main__":
     numList = []
     splits = 0
     if True:
-        with open('PS1.txt') as f:
+        with open('PS1.txt', 'r') as f:
             for line in f:
                 numList.append(int(line.rstrip()))
     else:
